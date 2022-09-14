@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3E9AC627D72A7900BA251C /* EcoPlan_DiagnosticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9AC527D72A7900BA251C /* EcoPlan_DiagnosticsApp.swift */; };
+		DD3E9AC827D72A7900BA251C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9AC727D72A7900BA251C /* ContentView.swift */; };
+		DD3E9ACA27D72A7D00BA251C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3E9AC927D72A7D00BA251C /* Assets.xcassets */; };
+		DD3E9ACD27D72A7D00BA251C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3E9ACC27D72A7D00BA251C /* Preview Assets.xcassets */; };
+		DD3E9AD427D72A9200BA251C /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9AD327D72A9200BA251C /* EntryView.swift */; };
+		DD3E9AD627D72D6600BA251C /* BluetoothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9AD527D72D6600BA251C /* BluetoothViewModel.swift */; };
+		DD3E9AD927D73FB400BA251C /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9AD827D73FB400BA251C /* ConnectionView.swift */; };
+		DD3E9ADB27D7EF0600BA251C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9ADA27D7EF0600BA251C /* LoginView.swift */; };
+		DD3E9ADD27D8A86B00BA251C /* ble.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3E9ADC27D8A86900BA251C /* ble.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD3E9AC227D72A7900BA251C /* EcoPlan Diagnostics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EcoPlan Diagnostics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3E9AC527D72A7900BA251C /* EcoPlan_DiagnosticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoPlan_DiagnosticsApp.swift; sourceTree = "<group>"; };
+		DD3E9AC727D72A7900BA251C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD3E9AC927D72A7D00BA251C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD3E9ACC27D72A7D00BA251C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD3E9AD327D72A9200BA251C /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		DD3E9AD527D72D6600BA251C /* BluetoothViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewModel.swift; sourceTree = "<group>"; };
+		DD3E9AD727D733F300BA251C /* EcoPlan-Diagnostics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EcoPlan-Diagnostics-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DD3E9AD827D73FB400BA251C /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		DD3E9ADA27D7EF0600BA251C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DD3E9ADC27D8A86900BA251C /* ble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ble.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3E9ABF27D72A7900BA251C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3E9AB927D72A7800BA251C = {
+			isa = PBXGroup;
+			children = (
+				DD3E9AC427D72A7900BA251C /* EcoPlan Diagnostics */,
+				DD3E9AC327D72A7900BA251C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3E9AC327D72A7900BA251C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3E9AC227D72A7900BA251C /* EcoPlan Diagnostics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3E9AC427D72A7900BA251C /* EcoPlan Diagnostics */ = {
+			isa = PBXGroup;
+			children = (
+				DD3E9AD727D733F300BA251C /* EcoPlan-Diagnostics-Info.plist */,
+				DD3E9ADC27D8A86900BA251C /* ble.swift */,
+				DD3E9ADA27D7EF0600BA251C /* LoginView.swift */,
+				DD3E9AC527D72A7900BA251C /* EcoPlan_DiagnosticsApp.swift */,
+				DD3E9AC727D72A7900BA251C /* ContentView.swift */,
+				DD3E9AD327D72A9200BA251C /* EntryView.swift */,
+				DD3E9AD827D73FB400BA251C /* ConnectionView.swift */,
+				DD3E9AD527D72D6600BA251C /* BluetoothViewModel.swift */,
+				DD3E9AC927D72A7D00BA251C /* Assets.xcassets */,
+				DD3E9ACB27D72A7D00BA251C /* Preview Content */,
+			);
+			path = "EcoPlan Diagnostics";
+			sourceTree = "<group>";
+		};
+		DD3E9ACB27D72A7D00BA251C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD3E9ACC27D72A7D00BA251C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3E9AC127D72A7900BA251C /* EcoPlan Diagnostics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3E9AD027D72A7D00BA251C /* Build configuration list for PBXNativeTarget "EcoPlan Diagnostics" */;
+			buildPhases = (
+				DD3E9ABE27D72A7900BA251C /* Sources */,
+				DD3E9ABF27D72A7900BA251C /* Frameworks */,
+				DD3E9AC027D72A7900BA251C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EcoPlan Diagnostics";
+			productName = "EcoPlan Diagnostics";
+			productReference = DD3E9AC227D72A7900BA251C /* EcoPlan Diagnostics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3E9ABA27D72A7800BA251C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DD3E9AC127D72A7900BA251C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DD3E9ABD27D72A7800BA251C /* Build configuration list for PBXProject "EcoPlan Diagnostics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3E9AB927D72A7800BA251C;
+			productRefGroup = DD3E9AC327D72A7900BA251C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3E9AC127D72A7900BA251C /* EcoPlan Diagnostics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3E9AC027D72A7900BA251C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3E9ACD27D72A7D00BA251C /* Preview Assets.xcassets in Resources */,
+				DD3E9ACA27D72A7D00BA251C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3E9ABE27D72A7900BA251C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3E9ADB27D7EF0600BA251C /* LoginView.swift in Sources */,
+				DD3E9AC827D72A7900BA251C /* ContentView.swift in Sources */,
+				DD3E9AD927D73FB400BA251C /* ConnectionView.swift in Sources */,
+				DD3E9ADD27D8A86B00BA251C /* ble.swift in Sources */,
+				DD3E9AD627D72D6600BA251C /* BluetoothViewModel.swift in Sources */,
+				DD3E9AC627D72A7900BA251C /* EcoPlan_DiagnosticsApp.swift in Sources */,
+				DD3E9AD427D72A9200BA251C /* EntryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD3E9ACE27D72A7D00BA251C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD3E9ACF27D72A7D00BA251C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3E9AD127D72A7D00BA251C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoPlan Diagnostics/Preview Content\"";
+				DEVELOPMENT_TEAM = 5B76D3FADB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcoPlan-Diagnostics-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Разрешите устройству подключаться к Bloetooth устройствам, чтобы уметь доступ к диагностике оборудования";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.EcoPlan-Diagnostics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD3E9AD227D72A7D00BA251C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoPlan Diagnostics/Preview Content\"";
+				DEVELOPMENT_TEAM = 5B76D3FADB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcoPlan-Diagnostics-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Разрешите устройству подключаться к Bloetooth устройствам, чтобы уметь доступ к диагностике оборудования";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.EcoPlan-Diagnostics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3E9ABD27D72A7800BA251C /* Build configuration list for PBXProject "EcoPlan Diagnostics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3E9ACE27D72A7D00BA251C /* Debug */,
+				DD3E9ACF27D72A7D00BA251C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3E9AD027D72A7D00BA251C /* Build configuration list for PBXNativeTarget "EcoPlan Diagnostics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3E9AD127D72A7D00BA251C /* Debug */,
+				DD3E9AD227D72A7D00BA251C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3E9ABA27D72A7800BA251C /* Project object */;
+}
